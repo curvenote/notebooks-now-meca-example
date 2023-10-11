@@ -1,811 +1,777 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.3 20210610//EN" "http://jats.nlm.nih.gov/publishing/1.3/JATS-archivearticle1-3-mathml3.dtd">
 <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" dtd-version="1.3" xml:lang="en" id="article">
-  <front>
-    <article-meta>
-      <title-group>
-        <article-title>La Palma Seismicity 2021</article-title>
-        <subtitle>An analysis of earthquake swarms in relation to the 2021 eruption</subtitle>
-      </title-group>
-      <contrib-group>
-        <contrib contrib-type="author" id="spurves" corresp="yes">
-          <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
-          <name>
-            <surname>Purves</surname>
-            <given-names>Steve</given-names>
-          </name>
-          <string-name>Steve Purves</string-name>
-          <role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Investigation">Investigation</role>
-          <role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Project administration">Project administration</role>
-          <role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Software">Software</role>
-          <role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Visualization">Visualization</role>
-          <xref ref-type="aff" rid="curvenote"/>
-          <email>steve@curvenote.com</email>
-        </contrib>
-        <contrib contrib-type="author" id="rcockett">
-          <contrib-id contrib-id-type="orcid">0000-0002-7859-8394</contrib-id>
-          <name>
-            <surname>Cockett</surname>
-            <given-names>Rowan</given-names>
-          </name>
-          <string-name>Rowan Cockett</string-name>
-          <role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Project administration">Project administration</role>
-          <xref ref-type="aff" rid="curvenote"/>
-        </contrib>
-        <contrib id="contributors-myst-generated-uid-2">
-          <name>
-            <surname>Koch</surname>
-            <given-names>Franklin</given-names>
-          </name>
-          <string-name>Franklin Koch</string-name>
-          <xref ref-type="aff" rid="curvenote"/>
-        </contrib>
-      </contrib-group>
-      <aff id="agu">
-        <institution-wrap>
-          <institution>American Geophysical Union</institution>
-        </institution-wrap>
-      </aff>
-      <aff id="curvenote">
-        <institution-wrap>
-          <institution>Curvenote</institution>
-          <institution-id institution-id-type="isni">0000000000000000</institution-id>
-        </institution-wrap>
-        <institution-wrap>
-          <institution content-type="dept">Engineering Team</institution>
-        </institution-wrap>
-        <addr-line>123 Main St.</addr-line>
-        <city>NYC</city>
-        <state>New York</state>
-        <postal-code>10001</postal-code>
-        <country>USA</country>
-        <phone>123-456-7890</phone>
-        <fax>123-456-7891</fax>
-        <email>support@curvenote.com</email>
-        <ext-link ext-link-type="uri" xlink:href="https://curvenote.com">https://curvenote.com</ext-link>
-      </aff>
-      <permissions>
-        <ali:free_to_read/>
-        <license>
-          <ali:license_ref>https://creativecommons.org/licenses/by-sa/4.0/</ali:license_ref>
-        </license>
-      </permissions>
-      <abstract>
-        <p>In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). We have created an accessible dataset from this and completed preliminary data analysis which shows seismicity originating at two distinct depths, consistent with the model of a two reservoir system feeding the currently very active volcano.</p>
-      </abstract>
-      <abstract abstract-type="plain-language-summary">
-        <title>Plain Language Summary</title>
-        <p>We show a model of a two reservoir system feeding the Canary Islands, Spain volcano in September 2021.</p>
-      </abstract>
-      <abstract abstract-type="key-points">
-        <title>Key Points</title>
-        <list list-type="bullet">
-          <list-item>
-            <p>You may specify 1 to 3 key points for AGU</p>
-          </list-item>
-          <list-item>
-            <p>These key points are complete sentences and less than or equal to 140 characters</p>
-          </list-item>
-          <list-item>
-            <p>They are specific to this PDF template, so they will not appear in other exports</p>
-          </list-item>
-        </list>
-      </abstract>
-      <kwd-group>
-        <kwd>La Palma</kwd>
-        <kwd>Earthquakes</kwd>
-      </kwd-group>
-      <funding-group>
-        <award-group>
-          <funding-source>
-            <xref ref-type="aff" rid="agu"/>
-          </funding-source>
-          <award-id>agu-0000</award-id>
-          <principal-award-recipient>
-            <name>
-              <surname>Koch</surname>
-              <given-names>Franklin</given-names>
-            </name>
-            <string-name>Franklin Koch</string-name>
-          </principal-award-recipient>
-          <principal-investigator>
-            <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
-            <name>
-              <surname>Purves</surname>
-              <given-names>Steve</given-names>
-            </name>
-            <string-name>Steve Purves</string-name>
-          </principal-investigator>
-          <principal-investigator>
-            <contrib-id contrib-id-type="orcid">0000-0002-7859-8394</contrib-id>
-            <name>
-              <surname>Cockett</surname>
-              <given-names>Rowan</given-names>
-            </name>
-            <string-name>Rowan Cockett</string-name>
-          </principal-investigator>
-        </award-group>
-        <funding-statement>This work was supported by Notebooks Now! at AGU.</funding-statement>
-        <open-access>
-          <p>Users are allowed to read, download, copy, distribute, print, search, or link to this template, or use it for any other lawful purpose, without asking prior permission</p>
-        </open-access>
-      </funding-group>
-    </article-meta>
-  </front>
-  <body>
-    <sec id="sec-1">
-      <title>Introduction</title>
-      <disp-quote>
-        <p>The content of your article is written in MyST markdown and supports 
-          <ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/typography">standard markdown typography</ext-link> and many 
-          <ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/syntax-overview">directives and roles</ext-link> for figures, tables, equations, etc.
-        </p>
-      </disp-quote>
-      <p>La Palma is one of the west most islands in the Volcanic Archipelago of the Canary Islands, a Spanish territory situated is the Atlantic Ocean where at their closest point are 100km from the African coast 
-        <xref ref-type="fig" rid="figure-1">Figure 1</xref> The island is one of the youngest, remains active and is still in the island forming stage.
-      </p>
-      <disp-quote>
-        <p>Figures may be added to your article using the 
-          <ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/figures">figure directive</ext-link>. They may refer to images saved in your 
-          <monospace>images/</monospace> folder, images from the web, or notebook cell outputs 
-          <ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/cross-references#targeting-cells">referenced by label</ext-link>. The 
-          <monospace>:name:</monospace> is used to reference the figure in your text; a reference to the following figure is found in the paragraph above. The figure caption is given as the body of this directive.
-        </p>
-      </disp-quote>
-      <fig id="figure-1">
-        <label>Figure 1:</label>
-        <caption>
-          <p>Map of La Palma in the Canary Islands. Image credit 
-            <ext-link ext-link-type="uri" xlink:href="https://commons.wikimedia.org/w/index.php?curid=76638603">NordNordWest</ext-link>
-          </p>
-        </caption>
-        <alt-text>Map of La Palma in the Canary Islands. Image credit NordNordWest</alt-text>
-        <graphic mimetype="image" mime-subtype="png" xlink:href="files/la-palma-map-650e62ce47fa5dd8df19eda40d05bdba.png"/>
-      </fig>
-      <p>La Palma has been constructed by various phases of volcanism, the most recent and currently active being the 
-        <italic>Cumbre Vieja</italic> volcano, a north-south volcanic ridge that constitutes the southern half of the island.
-      </p>
-    </sec>
-    <sec id="sec-2">
-      <title>Eruption History</title>
-      <p>A number of eruptions were recorded since the colonization of the islands by Europeans in the late 1400s, these are summarized in 
-        <xref ref-type="table" rid="table-1">Table 1</xref>.
-      </p>
-      <disp-quote>
-        <p>Simple tables may be created using the 
-          <ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/tables">list-table directive</ext-link>. Similar to figures, tables may be referenced in the text by their 
-          <monospace>name</monospace>. The caption for this table is the first line of the directive.
-        </p>
-      </disp-quote>
-      <table-wrap id="table-1">
-        <label>Table 1:</label>
-        <caption>
-          <p>Recent historic eruptions on La Palma</p>
-        </caption>
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Year</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Current</td>
-              <td>2021</td>
-            </tr>
-            <tr>
-              <td>Teneguía</td>
-              <td>1971</td>
-            </tr>
-            <tr>
-              <td>Nambroque</td>
-              <td>1949</td>
-            </tr>
-            <tr>
-              <td>El Charco</td>
-              <td>1712</td>
-            </tr>
-            <tr>
-              <td>Volcán San Antonio</td>
-              <td>1677</td>
-            </tr>
-            <tr>
-              <td>Volcán San Martin</td>
-              <td>1646</td>
-            </tr>
-            <tr>
-              <td>Tajuya near El Paso</td>
-              <td>1585</td>
-            </tr>
-            <tr>
-              <td>Montaña Quemada</td>
-              <td>1492</td>
-            </tr>
-          </tbody>
-        </table>
-      </table-wrap>
-      <p>This equates to an eruption on average every 79 years up until the 1971 event. The probability of a future eruption can be modeled by a Poisson distribution 
-        <xref ref-type="disp-formula" rid="eq-1">(1)</xref>.
-      </p>
-      <disp-quote>
-        <p>Numbered equations may be defined using the 
-          <ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/math">math directive or in line</ext-link>. Equations defined with the math directive may be reference in the text by label.
-        </p>
-      </disp-quote>
-      <disp-formula id="eq-1">
-        <label>(1)</label>
-        <alternatives>
-          <mml:math>
-            <mml:semantics>
-              <mml:mrow>
-                <mml:mi>p</mml:mi>
-                <mml:mo stretchy="false">(</mml:mo>
-                <mml:mi>x</mml:mi>
-                <mml:mo stretchy="false">)</mml:mo>
-                <mml:mo>=</mml:mo>
-                <mml:mfrac>
-                  <mml:mrow>
-                    <mml:msup>
-                      <mml:mi>e</mml:mi>
-                      <mml:mrow>
-                        <mml:mo>−</mml:mo>
-                        <mml:mi>λ</mml:mi>
-                      </mml:mrow>
-                    </mml:msup>
-                    <mml:msup>
-                      <mml:mi>λ</mml:mi>
-                      <mml:mi>x</mml:mi>
-                    </mml:msup>
-                  </mml:mrow>
-                  <mml:mrow>
-                    <mml:mi>x</mml:mi>
-                    <mml:mo stretchy="false">!</mml:mo>
-                  </mml:mrow>
-                </mml:mfrac>
-              </mml:mrow>
-            </mml:semantics>
-          </mml:math>
-          <tex-math><![CDATA[p(x)=\frac{e^{-\lambda} \lambda^{x}}{x !}]]></tex-math>
-        </alternatives>
-      </disp-formula>
-      <p>Where 
-        <inline-formula>
-          <alternatives>
-            <mml:math display="inline">
-              <mml:semantics>
-                <mml:mrow>
-                  <mml:mi>λ</mml:mi>
-                </mml:mrow>
-              </mml:semantics>
-            </mml:math>
-            <tex-math><![CDATA[\lambda]]></tex-math>
-          </alternatives>
-        </inline-formula> is the number of eruptions per year, 
-        <inline-formula>
-          <alternatives>
-            <mml:math display="inline">
-              <mml:semantics>
-                <mml:mrow>
-                  <mml:mi>λ</mml:mi>
-                  <mml:mo>=</mml:mo>
-                  <mml:mfrac>
-                    <mml:mn>1</mml:mn>
-                    <mml:mn>79</mml:mn>
-                  </mml:mfrac>
-                </mml:mrow>
-              </mml:semantics>
-            </mml:math>
-            <tex-math><![CDATA[\lambda=\frac{1}{79}]]></tex-math>
-          </alternatives>
-        </inline-formula> in this case. The probability of a future eruption in the next 
-        <inline-formula>
-          <alternatives>
-            <mml:math display="inline">
-              <mml:semantics>
-                <mml:mrow>
-                  <mml:mi>t</mml:mi>
-                </mml:mrow>
-              </mml:semantics>
-            </mml:math>
-            <tex-math><![CDATA[t]]></tex-math>
-          </alternatives>
-        </inline-formula> years can be calculated by:
-      </p>
-      <disp-formula id="eq-2">
-        <label>(2)</label>
-        <alternatives>
-          <mml:math>
-            <mml:semantics>
-              <mml:mrow>
-                <mml:msub>
-                  <mml:mi>p</mml:mi>
-                  <mml:mi>e</mml:mi>
-                </mml:msub>
-                <mml:mo>=</mml:mo>
-                <mml:mn>1</mml:mn>
-                <mml:mo>−</mml:mo>
-                <mml:msup>
-                  <mml:mi mathvariant="normal">e</mml:mi>
-                  <mml:mrow>
-                    <mml:mo>−</mml:mo>
-                    <mml:mi>t</mml:mi>
-                    <mml:mi>λ</mml:mi>
-                  </mml:mrow>
-                </mml:msup>
-              </mml:mrow>
-            </mml:semantics>
-          </mml:math>
-          <tex-math><![CDATA[p_e = 1-\mathrm{e}^{-t \lambda}]]></tex-math>
-        </alternatives>
-      </disp-formula>
-      <p>So following the 1971 eruption the probability of an eruption in the following 50 years — the period ending this year — was 0.469. After the event, the number of eruptions per year moves to 
-        <inline-formula>
-          <alternatives>
-            <mml:math display="inline">
-              <mml:semantics>
-                <mml:mrow>
-                  <mml:mi>λ</mml:mi>
-                  <mml:mo>=</mml:mo>
-                  <mml:mfrac>
-                    <mml:mn>1</mml:mn>
-                    <mml:mn>75</mml:mn>
-                  </mml:mfrac>
-                </mml:mrow>
-              </mml:semantics>
-            </mml:math>
-            <tex-math><![CDATA[\lambda=\frac{1}{75}]]></tex-math>
-          </alternatives>
-        </inline-formula> and the probability of a further eruption within the next 50 years (2022-2071) rises to 0.487 and in the next 100 years, this rises again to 0.736.
-      </p>
-      <sec id="sec-3">
-        <title>Magma Reservoirs</title>
-        <disp-quote>
-          <p>You may 
-            <ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/citations">add citations two ways</ext-link>. First, you may simply insert a markdown link to a DOI like so: 
-            <xref ref-type="bibr" rid="ref-2">Thompson 
-              <italic>et al.</italic> (1994)
-            </xref>. No additional bibliographic information is required for this approach; the reference will be looked up by DOI and added implicitly to the references. Alternatively, you may provide the bibliography directly as 
-            <monospace>references.bib</monospace> BibTeX file, then embed the citation by BibTeX key in your text using the 
-            <monospace>cite:p</monospace> or 
-            <monospace>cite:t</monospace> for parenthetical or textual citations, respectively. The following paragraph provides an example of this. A single paper may combine both DOI and BibTeX citations.
-          </p>
-        </disp-quote>
-        <p>Studies of the magma systems feeding the volcano, such as (
-          <xref ref-type="bibr" rid="ref-1">Marrero 
-            <italic>et al.</italic>, 2019
-          </xref>) has proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges and in turn feeds a shallower crustal reservoir (10-20km depth).
-        </p>
-        <fig id="figure-2">
-          <label>Figure 2:</label>
-          <caption>
-            <p>Proposed model from 
-              <xref ref-type="bibr" rid="ref-1">Marrero 
-                <italic>et al.</italic> (2019)
-              </xref>.
-            </p>
-          </caption>
-          <alt-text>Proposed model from .</alt-text>
-          <graphic mimetype="image" mime-subtype="png" xlink:href="files/reservoirs-863d2b06151b1327cc836a4b2bc4425e.png"/>
-        </fig>
-        <p>In this paper, we look at recent seismicity data to see if we can see evidence of such a system action, see 
-          <xref ref-type="fig" rid="figure-2">Figure 2</xref>.
-        </p>
-      </sec>
-    </sec>
-    <sec id="sec-4">
-      <title>Dataset</title>
-      <disp-quote>
-        <p>All data used in the notebook should be present in the 
-          <monospace>data/</monospace> folder so notebooks may be executed in place with no additional input.
-        </p>
-      </disp-quote>
-      <p>The earthquake dataset used in our analysis was generated from the 
-        <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/resources/volcanologia/tproximos/canarias.html">IGN web portal</ext-link> this is public data released under a permissive license. Data recorded using the network of Seismic Monitoring Stations on the island. A web scraping script was developed to pull data into a machine-readable form for analysis. That code tool 
-        <ext-link ext-link-type="uri" xlink:href="https://github.com/stevejpurves/ign-earthquake-data">is available on GitHub</ext-link> along with a copy of recently updated data.
-      </p>
-    </sec>
-    <sec id="sec-5">
-      <title>Results</title>
-      <p>The dataset was loaded into a Jupyter notebook 
-        <ext-link ext-link-type="uri" xlink:href="/visualization-figure-creation-seaborn">visualization</ext-link> and filtered down to La Palma events only. This results in 5465 data points which we then visualized to understand their distributions spatially, by depth, by magnitude and in time.
-      </p>
-      <fig id="figure-3">
-        <label>Figure 3:</label>
-        <caption>
-          <p>Earthquake data over time (n=5465) to understand their distributions spatially, by depth, by magnitude and in time.
+<front>
+<article-meta>
+<title-group>
+<article-title>La Palma Seismicity 2021</article-title>
+<subtitle>An analysis of earthquake swarms in relation to the 2021 eruption</subtitle>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="spurves" corresp="yes">
+<contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
+<name>
+<surname>Purves</surname>
+<given-names>Steve</given-names>
+</name>
+<string-name>Steve Purves</string-name>
+<role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Investigation">Investigation</role>
+<role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Project administration">Project administration</role>
+<role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Software">Software</role>
+<role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Visualization">Visualization</role>
+<xref ref-type="aff" rid="curvenote"/>
+<email>steve@curvenote.com</email>
+</contrib>
+<contrib contrib-type="author" id="rcockett">
+<contrib-id contrib-id-type="orcid">0000-0002-7859-8394</contrib-id>
+<name>
+<surname>Cockett</surname>
+<given-names>Rowan</given-names>
+</name>
+<string-name>Rowan Cockett</string-name>
+<role vocab="CRediT" vocab-identifier="http://credit.niso.org/" vocab-term="Project administration">Project administration</role>
+<xref ref-type="aff" rid="curvenote"/>
+</contrib>
+</contrib-group>
+<aff id="affiliations-myst-generated-uid-1">
+<institution-wrap>
+<institution>Alfred P. Sloan Foundation</institution>
+</institution-wrap>
+</aff>
+<aff id="curvenote">
+<institution-wrap>
+<institution>Curvenote</institution>
+<institution-id institution-id-type="isni">0000000000000000</institution-id>
+</institution-wrap>
+<institution-wrap>
+<institution content-type="dept">Engineering Team</institution>
+</institution-wrap>
+<addr-line>123 Main St.</addr-line>
+<city>NYC</city>
+<state>New York</state>
+<postal-code>10001</postal-code>
+<country>USA</country>
+<phone>123-456-7890</phone>
+<fax>123-456-7891</fax>
+<email>support@curvenote.com</email>
+<ext-link ext-link-type="uri" xlink:href="https://curvenote.com">https://curvenote.com</ext-link>
+</aff>
+<permissions>
+<ali:free_to_read/>
+<license>
+<ali:license_ref>https://creativecommons.org/licenses/by-sa/4.0/</ali:license_ref>
+</license>
+</permissions>
+<abstract>
+<p>In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). We have created an accessible dataset from this and completed preliminary data analysis which shows seismicity originating at two distinct depths, consistent with the model of a two reservoir system feeding the currently very active volcano.</p>
+</abstract>
+<abstract abstract-type="plain-language-summary">
+<title>Plain Language Summary</title>
+<p>We show a model of a two reservoir system feeding the Canary Islands, Spain volcano in September 2021.</p>
+</abstract>
+<abstract abstract-type="key-points">
+<title>Key Points</title>
+<list list-type="bullet">
+<list-item>
+<p>You may specify 1 to 3 key points for AGU</p>
+</list-item>
+<list-item>
+<p>These key points are complete sentences and less than or equal to 140 characters</p>
+</list-item>
+<list-item>
+<p>They are specific to this PDF template, so they will not appear in other exports</p>
+</list-item>
+</list>
+</abstract>
+<kwd-group>
+<kwd>La Palma</kwd>
+<kwd>Earthquakes</kwd>
+</kwd-group>
+<funding-group>
+<award-group>
+<funding-source>
+<xref ref-type="aff" rid="affiliations-myst-generated-uid-1"/>
+</funding-source>
+<award-id>10070</award-id>
+</award-group>
+<funding-statement>Supported by Notebooks Now! at AGU.</funding-statement>
+</funding-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec-1">
+<title>Introduction</title>
+<disp-quote>
+<p>The content of your article is written in MyST markdown and supports 
+<ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/typography">standard markdown typography</ext-link> and many 
+<ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/syntax-overview">directives and roles</ext-link> for figures, tables, equations, etc.
+</p>
+</disp-quote>
+<p>La Palma is one of the west most islands in the Volcanic Archipelago of the Canary Islands, a Spanish territory situated is the Atlantic Ocean where at their closest point are 100km from the African coast 
+<xref ref-type="fig" rid="figure-1">Figure 1</xref> The island is one of the youngest, remains active and is still in the island forming stage.
+</p>
+<disp-quote>
+<p>Figures may be added to your article using the 
+<ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/figures">figure directive</ext-link>. They may refer to images saved in your 
+<monospace>images/</monospace> folder, images from the web, or notebook cell outputs 
+<ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/cross-references#targeting-cells">referenced by label</ext-link>. The 
+<monospace>:name:</monospace> is used to reference the figure in your text; a reference to the following figure is found in the paragraph above. The figure caption is given as the body of this directive.
+</p>
+</disp-quote>
+<fig id="figure-1">
+<label>Figure 1:</label>
+<caption>
+<p>Map of La Palma in the Canary Islands. Image credit 
+<ext-link ext-link-type="uri" xlink:href="https://commons.wikimedia.org/w/index.php?curid=76638603">NordNordWest</ext-link>
+</p>
+</caption>
+<alt-text>Map of La Palma in the Canary Islands. Image credit NordNordWest</alt-text>
+<graphic mimetype="image" mime-subtype="png" xlink:href="files/la-palma-map-650e62ce47fa5dd8df19eda40d05bdba.png"/>
+</fig>
+<p>La Palma has been constructed by various phases of volcanism, the most recent and currently active being the 
+<italic>Cumbre Vieja</italic> volcano, a north-south volcanic ridge that constitutes the southern half of the island.
+</p>
+</sec>
+<sec id="sec-2">
+<title>Eruption History</title>
+<p>A number of eruptions were recorded since the colonization of the islands by Europeans in the late 1400s, these are summarized in 
+<xref ref-type="table" rid="table-1">Table 1</xref>.
+</p>
+<disp-quote>
+<p>Simple tables may be created using the 
+<ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/tables">list-table directive</ext-link>. Similar to figures, tables may be referenced in the text by their 
+<monospace>name</monospace>. The caption for this table is the first line of the directive.
+</p>
+</disp-quote>
+<table-wrap id="table-1">
+<label>Table 1:</label>
+<caption>
+<p>Recent historic eruptions on La Palma</p>
+</caption>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Current</td>
+<td>2021</td>
+</tr>
+<tr>
+<td>Teneguía</td>
+<td>1971</td>
+</tr>
+<tr>
+<td>Nambroque</td>
+<td>1949</td>
+</tr>
+<tr>
+<td>El Charco</td>
+<td>1712</td>
+</tr>
+<tr>
+<td>Volcán San Antonio</td>
+<td>1677</td>
+</tr>
+<tr>
+<td>Volcán San Martin</td>
+<td>1646</td>
+</tr>
+<tr>
+<td>Tajuya near El Paso</td>
+<td>1585</td>
+</tr>
+<tr>
+<td>Montaña Quemada</td>
+<td>1492</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>This equates to an eruption on average every 79 years up until the 1971 event. The probability of a future eruption can be modeled by a Poisson distribution 
+<xref ref-type="disp-formula" rid="eq-1">(1)</xref>.
+</p>
+<disp-quote>
+<p>Numbered equations may be defined using the 
+<ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/math">math directive or in line</ext-link>. Equations defined with the math directive may be reference in the text by label.
+</p>
+</disp-quote>
+<disp-formula id="eq-1">
+<label>(1)</label>
+<alternatives>
+<mml:math>
+<mml:semantics>
+<mml:mrow>
+<mml:mi>p</mml:mi>
+<mml:mo stretchy="false">(</mml:mo>
+<mml:mi>x</mml:mi>
+<mml:mo stretchy="false">)</mml:mo>
+<mml:mo>=</mml:mo>
+<mml:mfrac>
+<mml:mrow>
+<mml:msup>
+<mml:mi>e</mml:mi>
+<mml:mrow>
+<mml:mo>−</mml:mo>
+<mml:mi>λ</mml:mi>
+</mml:mrow>
+</mml:msup>
+<mml:msup>
+<mml:mi>λ</mml:mi>
+<mml:mi>x</mml:mi>
+</mml:msup>
+</mml:mrow>
+<mml:mrow>
+<mml:mi>x</mml:mi>
+<mml:mo stretchy="false">!</mml:mo>
+</mml:mrow>
+</mml:mfrac>
+</mml:mrow>
+</mml:semantics>
+</mml:math>
+<tex-math><![CDATA[p(x)=\frac{e^{-\lambda} \lambda^{x}}{x !}]]></tex-math>
+</alternatives>
+</disp-formula>
+<p>Where 
+<inline-formula>
+<alternatives>
+<mml:math display="inline">
+<mml:semantics>
+<mml:mrow>
+<mml:mi>λ</mml:mi>
+</mml:mrow>
+</mml:semantics>
+</mml:math>
+<tex-math><![CDATA[\lambda]]></tex-math>
+</alternatives>
+</inline-formula> is the number of eruptions per year, 
+<inline-formula>
+<alternatives>
+<mml:math display="inline">
+<mml:semantics>
+<mml:mrow>
+<mml:mi>λ</mml:mi>
+<mml:mo>=</mml:mo>
+<mml:mfrac>
+<mml:mn>1</mml:mn>
+<mml:mn>79</mml:mn>
+</mml:mfrac>
+</mml:mrow>
+</mml:semantics>
+</mml:math>
+<tex-math><![CDATA[\lambda=\frac{1}{79}]]></tex-math>
+</alternatives>
+</inline-formula> in this case. The probability of a future eruption in the next 
+<inline-formula>
+<alternatives>
+<mml:math display="inline">
+<mml:semantics>
+<mml:mrow>
+<mml:mi>t</mml:mi>
+</mml:mrow>
+</mml:semantics>
+</mml:math>
+<tex-math><![CDATA[t]]></tex-math>
+</alternatives>
+</inline-formula> years can be calculated by:
+</p>
+<disp-formula id="eq-2">
+<label>(2)</label>
+<alternatives>
+<mml:math>
+<mml:semantics>
+<mml:mrow>
+<mml:msub>
+<mml:mi>p</mml:mi>
+<mml:mi>e</mml:mi>
+</mml:msub>
+<mml:mo>=</mml:mo>
+<mml:mn>1</mml:mn>
+<mml:mo>−</mml:mo>
+<mml:msup>
+<mml:mi mathvariant="normal">e</mml:mi>
+<mml:mrow>
+<mml:mo>−</mml:mo>
+<mml:mi>t</mml:mi>
+<mml:mi>λ</mml:mi>
+</mml:mrow>
+</mml:msup>
+</mml:mrow>
+</mml:semantics>
+</mml:math>
+<tex-math><![CDATA[p_e = 1-\mathrm{e}^{-t \lambda}]]></tex-math>
+</alternatives>
+</disp-formula>
+<p>So following the 1971 eruption the probability of an eruption in the following 50 years — the period ending this year — was 0.469. After the event, the number of eruptions per year moves to 
+<inline-formula>
+<alternatives>
+<mml:math display="inline">
+<mml:semantics>
+<mml:mrow>
+<mml:mi>λ</mml:mi>
+<mml:mo>=</mml:mo>
+<mml:mfrac>
+<mml:mn>1</mml:mn>
+<mml:mn>75</mml:mn>
+</mml:mfrac>
+</mml:mrow>
+</mml:semantics>
+</mml:math>
+<tex-math><![CDATA[\lambda=\frac{1}{75}]]></tex-math>
+</alternatives>
+</inline-formula> and the probability of a further eruption within the next 50 years (2022-2071) rises to 0.487 and in the next 100 years, this rises again to 0.736.
+</p>
+<sec id="sec-3">
+<title>Magma Reservoirs</title>
+<disp-quote>
+<p>You may 
+<ext-link ext-link-type="uri" xlink:href="https://mystmd.org/guide/citations">add citations two ways</ext-link>. First, you may simply insert a markdown link to a DOI like so: 
+<xref ref-type="bibr" rid="ref-2">Thompson 
+<italic>et al.</italic> (1994)
+</xref>. No additional bibliographic information is required for this approach; the reference will be looked up by DOI and added implicitly to the references. Alternatively, you may provide the bibliography directly as 
+<monospace>references.bib</monospace> BibTeX file, then embed the citation by BibTeX key in your text using the 
+<monospace>cite:p</monospace> or 
+<monospace>cite:t</monospace> for parenthetical or textual citations, respectively. The following paragraph provides an example of this. A single paper may combine both DOI and BibTeX citations.
+</p>
+</disp-quote>
+<p>Studies of the magma systems feeding the volcano, such as (
+<xref ref-type="bibr" rid="ref-1">Marrero 
+<italic>et al.</italic>, 2019
+</xref>) has proposed that there are two main magma reservoirs feeding the Cumbre Vieja volcano; one in the mantle (30-40km depth) which charges and in turn feeds a shallower crustal reservoir (10-20km depth).
+</p>
+<fig id="figure-2">
+<label>Figure 2:</label>
+<caption>
+<p>Proposed model from 
+<xref ref-type="bibr" rid="ref-1">Marrero 
+<italic>et al.</italic> (2019)
+</xref>.
+</p>
+</caption>
+<alt-text>Proposed model from .</alt-text>
+<graphic mimetype="image" mime-subtype="png" xlink:href="files/reservoirs-863d2b06151b1327cc836a4b2bc4425e.png"/>
+</fig>
+<p>In this paper, we look at recent seismicity data to see if we can see evidence of such a system action, see 
+<xref ref-type="fig" rid="figure-2">Figure 2</xref>.
+</p>
+</sec>
+</sec>
+<sec id="sec-4">
+<title>Dataset</title>
+<disp-quote>
+<p>All data used in the notebook should be present in the 
+<monospace>data/</monospace> folder so notebooks may be executed in place with no additional input.
+</p>
+</disp-quote>
+<p>The earthquake dataset used in our analysis was generated from the 
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/resources/volcanologia/tproximos/canarias.html">IGN web portal</ext-link> this is public data released under a permissive license. Data recorded using the network of Seismic Monitoring Stations on the island. A web scraping script was developed to pull data into a machine-readable form for analysis. That code tool 
+<ext-link ext-link-type="uri" xlink:href="https://github.com/stevejpurves/ign-earthquake-data">is available on GitHub</ext-link> along with a copy of recently updated data.
+</p>
+</sec>
+<sec id="sec-5">
+<title>Results</title>
+<p>The dataset was loaded into a Jupyter notebook 
+<ext-link ext-link-type="uri" xlink:href="/visualization-figure-creation-seaborn">visualization</ext-link> and filtered down to La Palma events only. This results in 5465 data points which we then visualized to understand their distributions spatially, by depth, by magnitude and in time.
+</p>
+<fig id="figure-3">
+<label>Figure 3:</label>
+<caption>
+<p>Earthquake data over time (n=5465) to understand their distributions spatially, by depth, by magnitude and in time.
 This figure uses cell output from the 
-            <ext-link ext-link-type="uri" xlink:href="/visualization-figure-creation-seaborn">visualization notebook</ext-link>. The first line of the 
-            <xref ref-type="custom" rid="sec-36" custom-type="block">cell</xref> is 
-            <monospace>#| label: eq-timeline</monospace>. Referencing that label pulls in the output of the cell as a figure.
-          </p>
-          <p>
-            <supplementary-material id="figure-3-source" specific-use="notebook">
-              <label>Figure 3 - Notebook.</label>
-              <caption>
-                <title>Analysis for 
-                  <xref ref-type="fig" rid="figure-3">Figure 3</xref>.
-                </title>
-                <p>See methods in 
-                  <xref ref-type="custom" custom-type="notebook" rid="visualization-figure-creation-seaborn">notebook</xref> from 
-                  <xref ref-type="custom" custom-type="notebook-code" rid="sec-36">cell</xref>.
-                </p>
-              </caption>
-            </supplementary-material>
-          </p>
-        </caption>
-        <alternatives>
-          <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/f8ab9f0447ee819a5e7ba6831fde75ab.png"/>
-          <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/e4dcdda41d1b3375ecbf6ad739e6dbdd.txt"/>
-        </alternatives>
-      </fig>
-      <p>From our analysis in 
-        <xref ref-type="fig" rid="figure-3">Figure 3</xref>, we can see 3 different systems in play.
-      </p>
-      <p>Firstly, the shallow earthquake swarm leading up to the eruption on 19th September, related to significant surface deformation and shallow magma intrusion.</p>
-      <p>After the eruption, continuous shallow seismicity started at 10-15km corresponding to magma movement in the crustal reservoir.</p>
-      <p>Subsequently, high magnitude events begin occurring at 30-40km depths corresponding to changes in the mantle reservoir. These are also continuous but occur with a lower frequency than in the crustal reservoir.</p>
-    </sec>
-    <sec id="sec-6">
-      <title>Conclusions</title>
-      <p>From the analysis of the earthquake data collected and published by IGN for the period of 11 September through to 9 November 2021. Visualization of the earthquake events at different depths appears to confirm the presence of both mantle and crustal reservoirs as proposed by 
-        <xref ref-type="bibr" rid="ref-1">Marrero 
-          <italic>et al.</italic> (2019)
-        </xref>.
-      </p>
-    </sec>
-  </body>
-  <back>
-    <sec sec-type="data-availability">
-      <title>Data Availability</title>
-      <disp-quote>
-        <p>Data availability statement should be specified in a separate block with metadata 
-          <monospace>"part": "availability"</monospace>, similar to the abstract.
-        </p>
-        <p>AGU requires an Availability Statement for the underlying data needed to understand, evaluate, and build upon the reported research at the time of peer review and publication.</p>
-      </disp-quote>
-      <p>A web scraping script was developed to pull data into a machine-readable form for analysis. That code tool 
-        <ext-link ext-link-type="uri" xlink:href="https://github.com/stevejpurves/ign-earthquake-data">is available on GitHub</ext-link> along with a copy of recently updated data.
-      </p>
-    </sec>
-    <ref-list>
-      <ref id="ref-1">
-        <element-citation publication-type="journal">
-          <article-title>Strategies for the development of volcanic hazard maps in monogenetic volcanic fields: the example of La Palma (Canary Islands)</article-title>
-          <person-group person-group-type="author">
-            <name>
-              <surname>Marrero</surname>
-              <given-names>José</given-names>
-            </name>
-            <name>
-              <surname>García</surname>
-              <given-names>Alicia</given-names>
-            </name>
-            <name>
-              <surname>Berrocoso</surname>
-              <given-names>Manuel</given-names>
-            </name>
-            <name>
-              <surname>Llinares</surname>
-              <given-names>Ángeles</given-names>
-            </name>
-            <name>
-              <surname>Rodríguez-Losada</surname>
-              <given-names>Antonio</given-names>
-            </name>
-            <name>
-              <surname>Ortiz</surname>
-              <given-names>R.</given-names>
-            </name>
-          </person-group>
-          <source>Journal of Applied Volcanology</source>
-          <year iso-8601-date="2019">2019</year>
-          <pub-id pub-id-type="doi">10.1186/s13617-019-0085-5</pub-id>
-          <volume>8</volume>
-        </element-citation>
-      </ref>
-      <ref id="ref-2">
-        <element-citation publication-type="journal">
-          <article-title>CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice</article-title>
-          <person-group person-group-type="author">
-            <name>
-              <surname>Thompson</surname>
-              <given-names>Julie D.</given-names>
-            </name>
-            <name>
-              <surname>Higgins</surname>
-              <given-names>Desmond G.</given-names>
-            </name>
-            <name>
-              <surname>Gibson</surname>
-              <given-names>Toby J.</given-names>
-            </name>
-          </person-group>
-          <source>Nucleic Acids Research</source>
-          <year iso-8601-date="1994">1994</year>
-          <pub-id pub-id-type="doi">10.1093/nar/22.22.4673</pub-id>
-          <volume>22</volume>
-          <issue>22</issue>
-          <fpage>4673</fpage>
-          <lpage>4680</lpage>
-        </element-citation>
-      </ref>
-    </ref-list>
-    <ack>
-      <p>The authors would like to thank the Notebooks Now working groups for their help on creating these templates and advising on metadata.</p>
-    </ack>
-  </back>
-  <sub-article id="seismic-monitoring">
-    <front-stub>
-      <title-group>
-        <article-title>Seismic Monitoring Stations</article-title>
-      </title-group>
-    </front-stub>
-    <body>
-      <sec id="sec-7">
-        <sec id="sec-8">
-          <title>Monitoring La Palma</title>
-          <p>The Instituto Geográphico Nacional of Spain maintains a listing of the monitoring equipment and resources installed on the Canary Islands, including the island of La Palma. The equipment is installed and operated by the various cooperating governmental organizations and IGN.</p>
-          <p>The monitoring stations measure position, seismic activity, chemistry/gas, deformation, and inclination. The network of seismic monitoring stations marked by the wave icon (dark blue) in Figure 1 below is of particular interest to this study.</p>
-          <fig id="figure-4">
-            <label>Figure 1:</label>
-            <caption>
-              <p>Locations of monitoring stations on the island of La Palma - including locations of the 11 current seismic stations operating. The map shown is available on the IGN data portal at: 
-                <ext-link ext-link-type="uri" xlink:href="http://www.ign.es/resources/volcanologia/estaciones_red/estaciones.html">http://​​www​​.ign​​.es​​/resources​​/volcanologia​​/estaciones​​_red​​/estaciones​​.html</ext-link>
-              </p>
-            </caption>
-            <alt-text>Locations of monitoring stations on the island of La Palma - including locations of the 11 current seismic stations operating. The map shown is available on the IGN data portal at: http://www.ign.es/resources/volcanologia/estaciones_red/estaciones.html</alt-text>
-            <graphic mimetype="image" mime-subtype="png" xlink:href="files/stations-4e022165150a6aeffd54d69d7049fd1f.png"/>
-          </fig>
-        </sec>
-        <sec id="sec-9">
-          <title>Seismic Monitoring Stations</title>
-          <p>The active seismic monitoring stations have been installed over the period 2009 to 2021. As of Aug 5, 2022 there are 12 active stations (
-            <xref ref-type="table" rid="table-2">Table 1</xref>) and 4 decommissioned stations (
-            <xref ref-type="table" rid="table-3">Table 2</xref>).
-          </p>
-          <table-wrap id="table-2">
-            <label>Table 1:</label>
-            <caption>
-              <p>Active seismic monitoring stations on La Palma</p>
-            </caption>
-            <table>
-              <thead>
-                <tr>
-                  <th>Id</th>
-                  <th>Installed</th>
-                  <th>Upgraded</th>
-                  <th>Location</th>
-                  <th>Channels</th>
-                  <th>Link</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>EHIG</td>
-                  <td>13/03/2009</td>
-                  <td/>
-                  <td>Tigalate, Villa de Mazo</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=EHIG&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>TBT</td>
-                  <td>27/10/2012</td>
-                  <td/>
-                  <td>Barranco de las Angustias, El Paso</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=TBT&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CJED</td>
-                  <td>24/05/2017</td>
-                  <td/>
-                  <td>Jedey, El Paso</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CJED&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CPUN</td>
-                  <td>24/05/2017</td>
-                  <td>23/06/2017</td>
-                  <td>Los Aviseros, Puntallana</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CPUN&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CTEN</td>
-                  <td>25/05/2017</td>
-                  <td/>
-                  <td>Las Machuqueras, Fuencaliente</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CTEN&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CROM</td>
-                  <td>10/10/2017</td>
-                  <td>14/08/2019</td>
-                  <td>Observatorio del Roque de los Muchachos, Garafía</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CROM&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CENR</td>
-                  <td>10/10/2017</td>
-                  <td/>
-                  <td>Cumbre Vieja, El Paso</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CENR&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CGOR</td>
-                  <td>17/11/2017</td>
-                  <td/>
-                  <td>Helipuerto BRIF, Puntagorda</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CGOR&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CMIR</td>
-                  <td>08/11/2017</td>
-                  <td>20/03/2019</td>
-                  <td>P.N. La Caldera de Tabueriente, El Paso</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CMIR&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CBRE</td>
-                  <td>03/04/2018</td>
-                  <td/>
-                  <td>Breña Baja</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CBRE&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CALD</td>
-                  <td>08/04/2021</td>
-                  <td/>
-                  <td>Villa de Mazo</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CALD&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CAVE</td>
-                  <td>29/09/2021</td>
-                  <td/>
-                  <td>Tajuya</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CAVE&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </table-wrap>
-          <p>A number of stations have been upgraded since commissioning, where EH (Extremely Short Period) sensors were replaced with HH (High Broad Band) sensors based on the change to the 
-            <ext-link ext-link-type="uri" xlink:href="https://ds.iris.edu/ds/nodes/dmc/data/formats/seed-channel-naming/">SEED channel identifiers</ext-link> reported.
-          </p>
-          <p>The following decommissioned stations were previously part of the seismic network on the island and contributed to measurements over the period 2017 to 2021.</p>
-          <table-wrap id="table-3">
-            <label>Table 2:</label>
-            <caption>
-              <p>Decommissioned seismic monitoring stations on La Palma</p>
-            </caption>
-            <table>
-              <thead>
-                <tr>
-                  <th>Id</th>
-                  <th>Installed</th>
-                  <th>Decommissioned</th>
-                  <th>Location</th>
-                  <th>Channels</th>
-                  <th>Link</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>CMAZ</td>
-                  <td>10/11/2017</td>
-                  <td>17/01/2018</td>
-                  <td>Villa de Mazo, Isla de la Palma</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=BAJA&amp;codEs=CMAZ&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CLLA</td>
-                  <td>09/11/2017</td>
-                  <td>13/01/2019</td>
-                  <td>Todoque, Los Llanos de Aridane</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=BAJA&amp;codEs=CLLA&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CFLP</td>
-                  <td>06/11/2017</td>
-                  <td>20/03/2019</td>
-                  <td>Los Canarios, Fuencaliente</td>
-                  <td>HH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=BAJA&amp;codEs=CFLP&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-                <tr>
-                  <td>CVIE</td>
-                  <td>10/10/2017</td>
-                  <td>08/04/2021</td>
-                  <td>Cumbre Vieja, Villa de Mazo</td>
-                  <td>EH</td>
-                  <td>
-                    <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=BAJA&amp;codEs=CVIE&amp;mapa=N">link</ext-link>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </table-wrap>
-          <boxed-text content-type="note">
-            <caption>
-              <title>Note</title>
-            </caption>
-            <p>For more information on the monitoring network in the Canary Islands visit 
-              <ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-area-volcanologia">https://​​www​​.ign​​.es​​/web​​/ign​​/portal​​/vlc​​-area​​-volcanologia</ext-link>
-            </p>
-          </boxed-text>
-        </sec>
-      </sec>
-    </body>
-  </sub-article>
-  <sub-article id="data-screening">
-    <front-stub>
-      <title-group>
-        <article-title>Data Screening</article-title>
-      </title-group>
-      <contrib-group>
-        <contrib contrib-type="author" id="contributors-data-screening-generated-uid-0">
-          <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
-          <name>
-            <surname>Purves</surname>
-            <given-names>Steve</given-names>
-          </name>
-          <string-name>Steve Purves</string-name>
-        </contrib>
-      </contrib-group>
-    </front-stub>
-    <body>
-      <sec id="sec-10" sec-type="notebook-content">
-        <p>Load and review the data, check that dates are loaded properly and filter data down to the events in La Palma only. The dataset itself contains all recent IGN earthquake data for Spanish territory.</p>
-      </sec>
-      <sec id="sec-11" sec-type="notebook-code">
-        <code language="python" executable="yes">import pandas as pd
+<ext-link ext-link-type="uri" xlink:href="/visualization-figure-creation-seaborn">visualization notebook</ext-link>. The first line of the 
+<xref ref-type="custom" rid="sec-36" custom-type="block">cell</xref> is 
+<monospace>#| label: eq-timeline</monospace>. Referencing that label pulls in the output of the cell as a figure.
+</p>
+<p>
+<supplementary-material id="figure-3-source" specific-use="notebook">
+<label>Figure 3 - Notebook.</label>
+<caption>
+<title>Analysis for 
+<xref ref-type="fig" rid="figure-3">Figure 3</xref>.
+</title>
+<p>See methods in 
+<xref ref-type="custom" custom-type="notebook" rid="visualization-figure-creation-seaborn">notebook</xref> from 
+<xref ref-type="custom" custom-type="notebook-code" rid="sec-36">cell</xref>.
+</p>
+</caption>
+</supplementary-material>
+</p>
+</caption>
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/f8ab9f0447ee819a5e7ba6831fde75ab.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/e4dcdda41d1b3375ecbf6ad739e6dbdd.txt"/>
+</alternatives>
+</fig>
+<p>From our analysis in 
+<xref ref-type="fig" rid="figure-3">Figure 3</xref>, we can see 3 different systems in play.
+</p>
+<p>Firstly, the shallow earthquake swarm leading up to the eruption on 19th September, related to significant surface deformation and shallow magma intrusion.</p>
+<p>After the eruption, continuous shallow seismicity started at 10-15km corresponding to magma movement in the crustal reservoir.</p>
+<p>Subsequently, high magnitude events begin occurring at 30-40km depths corresponding to changes in the mantle reservoir. These are also continuous but occur with a lower frequency than in the crustal reservoir.</p>
+</sec>
+<sec id="sec-6">
+<title>Conclusions</title>
+<p>From the analysis of the earthquake data collected and published by IGN for the period of 11 September through to 9 November 2021. Visualization of the earthquake events at different depths appears to confirm the presence of both mantle and crustal reservoirs as proposed by 
+<xref ref-type="bibr" rid="ref-1">Marrero 
+<italic>et al.</italic> (2019)
+</xref>.
+</p>
+</sec>
+</body>
+<back>
+<sec sec-type="data-availability">
+<title>Data Availability</title>
+<disp-quote>
+<p>Data availability statement should be specified in a separate block with metadata 
+<monospace>"part": "availability"</monospace>, similar to the abstract.
+</p>
+<p>AGU requires an Availability Statement for the underlying data needed to understand, evaluate, and build upon the reported research at the time of peer review and publication.</p>
+</disp-quote>
+<p>A web scraping script was developed to pull data into a machine-readable form for analysis. That code tool 
+<ext-link ext-link-type="uri" xlink:href="https://github.com/stevejpurves/ign-earthquake-data">is available on GitHub</ext-link> along with a copy of recently updated data.
+</p>
+</sec>
+<ref-list>
+<ref id="ref-1">
+<element-citation publication-type="journal">
+<article-title>Strategies for the development of volcanic hazard maps in monogenetic volcanic fields: the example of La Palma (Canary Islands)</article-title>
+<person-group person-group-type="author">
+<name>
+<surname>Marrero</surname>
+<given-names>José</given-names>
+</name>
+<name>
+<surname>García</surname>
+<given-names>Alicia</given-names>
+</name>
+<name>
+<surname>Berrocoso</surname>
+<given-names>Manuel</given-names>
+</name>
+<name>
+<surname>Llinares</surname>
+<given-names>Ángeles</given-names>
+</name>
+<name>
+<surname>Rodríguez-Losada</surname>
+<given-names>Antonio</given-names>
+</name>
+<name>
+<surname>Ortiz</surname>
+<given-names>R.</given-names>
+</name>
+</person-group>
+<source>Journal of Applied Volcanology</source>
+<year iso-8601-date="2019">2019</year>
+<pub-id pub-id-type="doi">10.1186/s13617-019-0085-5</pub-id>
+<volume>8</volume>
+</element-citation>
+</ref>
+<ref id="ref-2">
+<element-citation publication-type="journal">
+<article-title>CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice</article-title>
+<person-group person-group-type="author">
+<name>
+<surname>Thompson</surname>
+<given-names>Julie D.</given-names>
+</name>
+<name>
+<surname>Higgins</surname>
+<given-names>Desmond G.</given-names>
+</name>
+<name>
+<surname>Gibson</surname>
+<given-names>Toby J.</given-names>
+</name>
+</person-group>
+<source>Nucleic Acids Research</source>
+<year iso-8601-date="1994">1994</year>
+<pub-id pub-id-type="doi">10.1093/nar/22.22.4673</pub-id>
+<volume>22</volume>
+<issue>22</issue>
+<fpage>4673</fpage>
+<lpage>4680</lpage>
+</element-citation>
+</ref>
+</ref-list>
+<ack>
+<p>The authors would like to thank the Notebooks Now working groups for their help on creating these templates and advising on metadata.</p>
+</ack>
+</back>
+<sub-article id="seismic-monitoring">
+<front-stub>
+<title-group>
+<article-title>Seismic Monitoring Stations</article-title>
+</title-group>
+</front-stub>
+<body>
+<sec id="sec-7">
+<sec id="sec-8">
+<title>Monitoring La Palma</title>
+<p>The Instituto Geográphico Nacional of Spain maintains a listing of the monitoring equipment and resources installed on the Canary Islands, including the island of La Palma. The equipment is installed and operated by the various cooperating governmental organizations and IGN.</p>
+<p>The monitoring stations measure position, seismic activity, chemistry/gas, deformation, and inclination. The network of seismic monitoring stations marked by the wave icon (dark blue) in Figure 1 below is of particular interest to this study.</p>
+<fig id="figure-4">
+<label>Figure 1:</label>
+<caption>
+<p>Locations of monitoring stations on the island of La Palma - including locations of the 11 current seismic stations operating. The map shown is available on the IGN data portal at: 
+<ext-link ext-link-type="uri" xlink:href="http://www.ign.es/resources/volcanologia/estaciones_red/estaciones.html">http://​​www​​.ign​​.es​​/resources​​/volcanologia​​/estaciones​​_red​​/estaciones​​.html</ext-link>
+</p>
+</caption>
+<alt-text>Locations of monitoring stations on the island of La Palma - including locations of the 11 current seismic stations operating. The map shown is available on the IGN data portal at: http://www.ign.es/resources/volcanologia/estaciones_red/estaciones.html</alt-text>
+<graphic mimetype="image" mime-subtype="png" xlink:href="files/stations-4e022165150a6aeffd54d69d7049fd1f.png"/>
+</fig>
+</sec>
+<sec id="sec-9">
+<title>Seismic Monitoring Stations</title>
+<p>The active seismic monitoring stations have been installed over the period 2009 to 2021. As of Aug 5, 2022 there are 12 active stations (
+<xref ref-type="table" rid="table-2">Table 1</xref>) and 4 decommissioned stations (
+<xref ref-type="table" rid="table-3">Table 2</xref>).
+</p>
+<table-wrap id="table-2">
+<label>Table 1:</label>
+<caption>
+<p>Active seismic monitoring stations on La Palma</p>
+</caption>
+<table>
+<thead>
+<tr>
+<th>Id</th>
+<th>Installed</th>
+<th>Upgraded</th>
+<th>Location</th>
+<th>Channels</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EHIG</td>
+<td>13/03/2009</td>
+<td/>
+<td>Tigalate, Villa de Mazo</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=EHIG&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>TBT</td>
+<td>27/10/2012</td>
+<td/>
+<td>Barranco de las Angustias, El Paso</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=TBT&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CJED</td>
+<td>24/05/2017</td>
+<td/>
+<td>Jedey, El Paso</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CJED&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CPUN</td>
+<td>24/05/2017</td>
+<td>23/06/2017</td>
+<td>Los Aviseros, Puntallana</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CPUN&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CTEN</td>
+<td>25/05/2017</td>
+<td/>
+<td>Las Machuqueras, Fuencaliente</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CTEN&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CROM</td>
+<td>10/10/2017</td>
+<td>14/08/2019</td>
+<td>Observatorio del Roque de los Muchachos, Garafía</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CROM&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CENR</td>
+<td>10/10/2017</td>
+<td/>
+<td>Cumbre Vieja, El Paso</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CENR&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CGOR</td>
+<td>17/11/2017</td>
+<td/>
+<td>Helipuerto BRIF, Puntagorda</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CGOR&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CMIR</td>
+<td>08/11/2017</td>
+<td>20/03/2019</td>
+<td>P.N. La Caldera de Tabueriente, El Paso</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CMIR&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CBRE</td>
+<td>03/04/2018</td>
+<td/>
+<td>Breña Baja</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CBRE&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CALD</td>
+<td>08/04/2021</td>
+<td/>
+<td>Villa de Mazo</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CALD&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CAVE</td>
+<td>29/09/2021</td>
+<td/>
+<td>Tajuya</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=IGN&amp;codEs=CAVE&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>A number of stations have been upgraded since commissioning, where EH (Extremely Short Period) sensors were replaced with HH (High Broad Band) sensors based on the change to the 
+<ext-link ext-link-type="uri" xlink:href="https://ds.iris.edu/ds/nodes/dmc/data/formats/seed-channel-naming/">SEED channel identifiers</ext-link> reported.
+</p>
+<p>The following decommissioned stations were previously part of the seismic network on the island and contributed to measurements over the period 2017 to 2021.</p>
+<table-wrap id="table-3">
+<label>Table 2:</label>
+<caption>
+<p>Decommissioned seismic monitoring stations on La Palma</p>
+</caption>
+<table>
+<thead>
+<tr>
+<th>Id</th>
+<th>Installed</th>
+<th>Decommissioned</th>
+<th>Location</th>
+<th>Channels</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CMAZ</td>
+<td>10/11/2017</td>
+<td>17/01/2018</td>
+<td>Villa de Mazo, Isla de la Palma</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=BAJA&amp;codEs=CMAZ&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CLLA</td>
+<td>09/11/2017</td>
+<td>13/01/2019</td>
+<td>Todoque, Los Llanos de Aridane</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=BAJA&amp;codEs=CLLA&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CFLP</td>
+<td>06/11/2017</td>
+<td>20/03/2019</td>
+<td>Los Canarios, Fuencaliente</td>
+<td>HH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=BAJA&amp;codEs=CFLP&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+<tr>
+<td>CVIE</td>
+<td>10/10/2017</td>
+<td>08/04/2021</td>
+<td>Cumbre Vieja, Villa de Mazo</td>
+<td>EH</td>
+<td>
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-estaciones-red/-/estaciones-canarias/sismologiaDetalleEstaciones?codT=BAJA&amp;codEs=CVIE&amp;mapa=N">link</ext-link>
+</td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<boxed-text content-type="note">
+<caption>
+<title>Note</title>
+</caption>
+<p>For more information on the monitoring network in the Canary Islands visit 
+<ext-link ext-link-type="uri" xlink:href="https://www.ign.es/web/ign/portal/vlc-area-volcanologia">https://​​www​​.ign​​.es​​/web​​/ign​​/portal​​/vlc​​-area​​-volcanologia</ext-link>
+</p>
+</boxed-text>
+</sec>
+</sec>
+</body>
+</sub-article>
+<sub-article id="data-screening">
+<front-stub>
+<title-group>
+<article-title>Data Screening</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contributors-data-screening-generated-uid-0">
+<contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
+<name>
+<surname>Purves</surname>
+<given-names>Steve</given-names>
+</name>
+<string-name>Steve Purves</string-name>
+</contrib>
+</contrib-group>
+</front-stub>
+<body>
+<sec id="sec-10" sec-type="notebook-content">
+<p>Load and review the data, check that dates are loaded properly and filter data down to the events in La Palma only. The dataset itself contains all recent IGN earthquake data for Spanish territory.</p>
+</sec>
+<sec id="sec-11" sec-type="notebook-code">
+<code language="python" executable="yes">import pandas as pd
 import matplotlib.pyplot as plt</code>
-      </sec>
-      <sec id="sec-12" sec-type="notebook-code">
-        <code language="python" executable="yes">df = pd.read_csv('../data/catalogoComunSV_1663233588717.csv', sep=';')
+</sec>
+<sec id="sec-12" sec-type="notebook-code">
+<code language="python" executable="yes">df = pd.read_csv('../data/catalogoComunSV_1663233588717.csv', sep=';')
 df.columns = ['Event', 'Date', 'Time', 'Latitude', 'Longitude', 'Depth(km)', 'Intensity','Magnitude', 'Type Mag', 'Location']
 df['Time'] = df['Time'].str.strip()
 df['Date'] = df['Date'].str.strip()
@@ -814,52 +780,52 @@ df['Timestamp'] = pd.to_numeric(pd.to_datetime(df['DateTime']))
 df['Date'] = pd.to_datetime(df['Date'], format="%d/%m/%Y")
 df = df.sort_values(by=['DateTime'], ascending=True)
 df.head()</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <media specific-use="web" mimetype="text" mime-subtype="html" xlink:href="files/08a3e249667761903112eae3524f9f05.html"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/97c9d9da18fc606e9ecd3a743850b893.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-13" sec-type="notebook-code">
-        <code language="python" executable="yes">df.describe()</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <media specific-use="web" mimetype="text" mime-subtype="html" xlink:href="files/257ba76efd5a6f2788d081540a78d55f.html"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/d03d60ec84df51e45664cc63c0e92b1d.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-14" sec-type="notebook-code">
-        <code language="python" executable="yes">df.plot.scatter(x="Longitude", y="Latitude", figsize=(12,12), grid="on");</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/5c5a9c2dca5de0d65fc01a1132d0d2b2.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/2e1524a2f85e69d11e412b8e2a9de952.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-15" sec-type="notebook-content">
-        <sec id="sec-16">
-          <title>Filter down to La Palma events only</title>
-          <p>Also some rows seem to be missing depth measurements, (see differences in the 
-            <bold>count</bold> for columns above) - take only rows with valid depths
-          </p>
-        </sec>
-      </sec>
-      <sec id="sec-17" sec-type="notebook-code">
-        <code language="python" executable="yes">df = df[(df['Latitude'] &amp;lt; 28.7) &amp; (df['Latitude'] &gt; 28.3) &amp; (df['Longitude'] &amp;lt; -17.7) &amp; (df['Longitude'] &gt; -18)]
+<sec sec-type="notebook-output">
+<alternatives>
+<media specific-use="web" mimetype="text" mime-subtype="html" xlink:href="files/08a3e249667761903112eae3524f9f05.html"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/97c9d9da18fc606e9ecd3a743850b893.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-13" sec-type="notebook-code">
+<code language="python" executable="yes">df.describe()</code>
+<sec sec-type="notebook-output">
+<alternatives>
+<media specific-use="web" mimetype="text" mime-subtype="html" xlink:href="files/257ba76efd5a6f2788d081540a78d55f.html"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/d03d60ec84df51e45664cc63c0e92b1d.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-14" sec-type="notebook-code">
+<code language="python" executable="yes">df.plot.scatter(x="Longitude", y="Latitude", figsize=(12,12), grid="on");</code>
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/5c5a9c2dca5de0d65fc01a1132d0d2b2.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/2e1524a2f85e69d11e412b8e2a9de952.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-15" sec-type="notebook-content">
+<sec id="sec-16">
+<title>Filter down to La Palma events only</title>
+<p>Also some rows seem to be missing depth measurements, (see differences in the 
+<bold>count</bold> for columns above) - take only rows with valid depths
+</p>
+</sec>
+</sec>
+<sec id="sec-17" sec-type="notebook-code">
+<code language="python" executable="yes">df = df[(df['Latitude'] &amp;lt; 28.7) &amp; (df['Latitude'] &gt; 28.3) &amp; (df['Longitude'] &amp;lt; -17.7) &amp; (df['Longitude'] &gt; -18)]
 df = df[df['Depth(km)'].notna()]
 df.describe()</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <media specific-use="web" mimetype="text" mime-subtype="html" xlink:href="files/12fa1945a6466ee67907eddd793c1d48.html"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/60f92afe48bd3eb2227b796b23e91586.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-18" sec-type="notebook-code">
-        <code language="python" executable="yes">plt.figure(figsize=(20,6))
+<sec sec-type="notebook-output">
+<alternatives>
+<media specific-use="web" mimetype="text" mime-subtype="html" xlink:href="files/12fa1945a6466ee67907eddd793c1d48.html"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/60f92afe48bd3eb2227b796b23e91586.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-18" sec-type="notebook-code">
+<code language="python" executable="yes">plt.figure(figsize=(20,6))
 plt.subplot(1,3,1)
 df["Latitude"].plot.hist(bins=20, density=True)
 df["Latitude"].plot.kde()
@@ -869,53 +835,53 @@ df["Longitude"].plot.kde()
 plt.subplot(1,3,3)
 df["Depth(km)"].plot.hist(bins=50, density=True)
 _=df["Depth(km)"].plot.kde()</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/46f93ca27898f777b9123e4090e6e685.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/dd02250431a22b8951e4438997dda89b.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-19" sec-type="notebook-content">
-        <sec id="sec-20">
-          <title>Spatial Plot</title>
-          <p>Scatter plot the spatial locations of events</p>
-        </sec>
-      </sec>
-      <sec id="sec-21" sec-type="notebook-code">
-        <code language="python" executable="yes">from matplotlib import colormaps
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/46f93ca27898f777b9123e4090e6e685.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/dd02250431a22b8951e4438997dda89b.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-19" sec-type="notebook-content">
+<sec id="sec-20">
+<title>Spatial Plot</title>
+<p>Scatter plot the spatial locations of events</p>
+</sec>
+</sec>
+<sec id="sec-21" sec-type="notebook-code">
+<code language="python" executable="yes">from matplotlib import colormaps
 cmap = colormaps['viridis_r']
 ax = df.plot.scatter(x="Longitude", y="Latitude", s=40-df["Depth(km)"], c=df["Magnitude"], figsize=(12,10), grid="on", cmap=cmap)</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <media specific-use="stream" mimetype="text" mime-subtype="plain" xlink:href="files/c0fe24e9bc649e66006dcfb45a979e0a.txt"/>
-          </alternatives>
-        </sec>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/f43ed15cc898f1e019a83d794608862f.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/8be18b66b1b55791d3b851a55694cbd4.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-22" sec-type="notebook-content">
-        <sec id="sec-23">
-          <title>Timeline Plot</title>
-          <p>Scatter plot the event time series and look for any quantization issues. Have times &amp; dates been loaded correctly?</p>
-        </sec>
-      </sec>
-      <sec id="sec-24" sec-type="notebook-code">
-        <code language="python" executable="yes">ax = df.plot.scatter(x='DateTime', y='Depth(km)', figsize=(20,8))
+<sec sec-type="notebook-output">
+<alternatives>
+<media specific-use="stream" mimetype="text" mime-subtype="plain" xlink:href="files/c0fe24e9bc649e66006dcfb45a979e0a.txt"/>
+</alternatives>
+</sec>
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/f43ed15cc898f1e019a83d794608862f.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/8be18b66b1b55791d3b851a55694cbd4.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-22" sec-type="notebook-content">
+<sec id="sec-23">
+<title>Timeline Plot</title>
+<p>Scatter plot the event time series and look for any quantization issues. Have times &amp; dates been loaded correctly?</p>
+</sec>
+</sec>
+<sec id="sec-24" sec-type="notebook-code">
+<code language="python" executable="yes">ax = df.plot.scatter(x='DateTime', y='Depth(km)', figsize=(20,8))
 ax.set_ylim(50,0);</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/aae8ad9c53a0b5c52c06459040cc2532.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/ddf1fbab45050927e3c35bb6e7e115ed.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-25" sec-type="notebook-code">
-        <code language="python" executable="yes">df['Swarm'] = 0
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/aae8ad9c53a0b5c52c06459040cc2532.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/ddf1fbab45050927e3c35bb6e7e115ed.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-25" sec-type="notebook-code">
+<code language="python" executable="yes">df['Swarm'] = 0
 df.loc[(df['Date'] &gt;= '2017-10-01') &amp; (df['Date'] &amp;lt;= '2017-10-31'), 'Swarm'] = 1
 df.loc[(df['Date'] &gt;= '2019-02-01') &amp; (df['Date'] &amp;lt;= '2019-02-28'), 'Swarm'] = 2
 df.loc[(df['Date'] &gt;= '2020-07-21') &amp; (df['Date'] &amp;lt;= '2020-08-05'), 'Swarm'] = 3
@@ -934,45 +900,45 @@ df.loc[(df['Date'] &gt;= '2021-09-11') &amp; (df['Date'] &amp;lt;= '2021-09-30')
 df.loc[(df['Date'] &gt;= '2021-10-01') &amp; (df['Date'] &amp;lt;= '2021-11-30'), 'Phase'] = 2
 df.loc[(df['Date'] &gt;= '2021-12-01') &amp; (df['Date'] &amp;lt;= '2021-12-31'), 'Phase'] = 3
 df.loc[(df['Date'] &gt;= '2021-12-31'), 'Phase'] = 4</code>
-      </sec>
-      <sec id="sec-26" sec-type="notebook-code">
-        <code language="python" executable="yes">df.to_csv("../data/lapalma_ign.csv", index=False)</code>
-      </sec>
-    </body>
-  </sub-article>
-  <sub-article id="visualization-figure-creation-seaborn">
-    <front-stub>
-      <title-group>
-        <article-title>Visualization &amp; Figure Creation</article-title>
-      </title-group>
-      <contrib-group>
-        <contrib contrib-type="author" id="contributors-visualization-figure-creation-seaborn-generated-uid-0">
-          <contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
-          <name>
-            <surname>Purves</surname>
-            <given-names>Steve</given-names>
-          </name>
-          <string-name>Steve Purves</string-name>
-        </contrib>
-      </contrib-group>
-    </front-stub>
-    <body>
-      <sec id="sec-27" sec-type="notebook-content">
-        <sec id="sec-28">
-          <title>Main Timeline Figure</title>
-        </sec>
-      </sec>
-      <sec id="sec-29" sec-type="notebook-code">
-        <code language="python" executable="yes">%matplotlib inline
+</sec>
+<sec id="sec-26" sec-type="notebook-code">
+<code language="python" executable="yes">df.to_csv("../data/lapalma_ign.csv", index=False)</code>
+</sec>
+</body>
+</sub-article>
+<sub-article id="visualization-figure-creation-seaborn">
+<front-stub>
+<title-group>
+<article-title>Visualization &amp; Figure Creation</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" id="contributors-visualization-figure-creation-seaborn-generated-uid-0">
+<contrib-id contrib-id-type="orcid">0000-0002-0760-5497</contrib-id>
+<name>
+<surname>Purves</surname>
+<given-names>Steve</given-names>
+</name>
+<string-name>Steve Purves</string-name>
+</contrib>
+</contrib-group>
+</front-stub>
+<body>
+<sec id="sec-27" sec-type="notebook-content">
+<sec id="sec-28">
+<title>Main Timeline Figure</title>
+</sec>
+</sec>
+<sec id="sec-29" sec-type="notebook-code">
+<code language="python" executable="yes">%matplotlib inline
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 sns.set_theme(style="whitegrid")</code>
-      </sec>
-      <sec id="sec-30" sec-type="notebook-code">
-        <code language="python" executable="yes">def make_category_columns(df):
+</sec>
+<sec id="sec-30" sec-type="notebook-code">
+<code language="python" executable="yes">def make_category_columns(df):
     df['Depth'] = 'Shallow (&amp;lt;18km)'
     df.loc[(df['Depth(km)'] &gt;= 18) &amp; (df['Depth(km)'] &amp;lt;= 28), 'Depth'] = 'Interchange (18km&gt;x&gt;28km)'
     df.loc[df['Depth(km)'] &gt;= 28, 'Depth'] = 'Deep (&gt;28km)'
@@ -984,37 +950,37 @@ sns.set_theme(style="whitegrid")</code>
     df.loc[(df['Magnitude'] &gt;= 4) &amp; (df['Magnitude'] &amp;lt;= 5), 'Mag'] = 4    
     
     return df</code>
-      </sec>
-      <sec id="sec-31" sec-type="notebook-content">
-        <sec id="sec-32">
-          <title>Visualising Long term earthquake data</title>
-          <p>Data taken directly from the IGN Catalog and processed using the 
-            <ext-link ext-link-type="uri" xlink:href="/data-screening">data screening notebook</ext-link>.
-          </p>
-        </sec>
-      </sec>
-      <sec id="sec-33" sec-type="notebook-code">
-        <code language="python" executable="yes">df_ign = pd.read_csv('../data/lapalma_ign.csv')
+</sec>
+<sec id="sec-31" sec-type="notebook-content">
+<sec id="sec-32">
+<title>Visualising Long term earthquake data</title>
+<p>Data taken directly from the IGN Catalog and processed using the 
+<ext-link ext-link-type="uri" xlink:href="/data-screening">data screening notebook</ext-link>.
+</p>
+</sec>
+</sec>
+<sec id="sec-33" sec-type="notebook-code">
+<code language="python" executable="yes">df_ign = pd.read_csv('../data/lapalma_ign.csv')
 df_ign = make_category_columns(df_ign)
 df_ign.head()</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <media specific-use="web" mimetype="text" mime-subtype="html" xlink:href="files/85138691e3f8c5d91583e8d33bb1347c.html"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/2965d404c0b1e99b5fac9ba461cf561c.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-34" sec-type="notebook-code">
-        <code language="python" executable="yes">df_ign['DateTime'] = pd.to_datetime(df_ign['Date'] + ' ' + df_ign['Time'])
+<sec sec-type="notebook-output">
+<alternatives>
+<media specific-use="web" mimetype="text" mime-subtype="html" xlink:href="files/85138691e3f8c5d91583e8d33bb1347c.html"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/2965d404c0b1e99b5fac9ba461cf561c.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-34" sec-type="notebook-code">
+<code language="python" executable="yes">df_ign['DateTime'] = pd.to_datetime(df_ign['Date'] + ' ' + df_ign['Time'])
 df_ign['DateTime']</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/b0cc3dbc98435dc2c080622aef22cdb8.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-35" sec-type="notebook-code">
-        <code language="python" executable="yes">df_ign_early = df_ign[df_ign['DateTime'] &amp;lt; '2021-09-11']
+<sec sec-type="notebook-output">
+<alternatives>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/b0cc3dbc98435dc2c080622aef22cdb8.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-35" sec-type="notebook-code">
+<code language="python" executable="yes">df_ign_early = df_ign[df_ign['DateTime'] &amp;lt; '2021-09-11']
 df_ign_pre = df_ign[(df_ign['DateTime'] &gt;= '2021-09-11')&amp;(df_ign['DateTime'] &amp;lt; '2021-09-19 14:13:00')]
 df_ign_phase1 = df_ign[(df_ign['DateTime'] &gt;= '2021-09-19 14:13:00')&amp;(df_ign['DateTime'] &amp;lt; '2021-10-01')]
 df_ign_phase2 = df_ign[(df_ign['DateTime'] &gt;= '2021-10-01')&amp;(df_ign['DateTime'] &amp;lt; '2021-12-01')]
@@ -1027,9 +993,9 @@ df_erupt_2 = df_erupt[(df_erupt['Magnitude'] &gt;= 1.0)&amp;(df_erupt['Magnitude
 df_erupt_3 = df_erupt[(df_erupt['Magnitude'] &gt;= 2.0)&amp;(df_erupt['Magnitude'] &amp;lt; 3.0)]
 df_erupt_4 = df_erupt[(df_erupt['Magnitude'] &gt;= 3.0)&amp;(df_erupt['Magnitude'] &amp;lt; 4.0)]
 df_erupt_5 = df_erupt[df_erupt['Magnitude'] &gt; 4.0]</code>
-      </sec>
-      <sec id="sec-36" sec-type="notebook-code">
-        <code id="eq-timeline-code" language="python" executable="yes">from matplotlib.patches import Rectangle
+</sec>
+<sec id="sec-36" sec-type="notebook-code">
+<code id="eq-timeline-code" language="python" executable="yes">from matplotlib.patches import Rectangle
 
 import datetime as dt
 from matplotlib.dates import date2num, num2date
@@ -1107,20 +1073,20 @@ ax_timeline.add_patch(Rectangle((date2num(pd.to_datetime('2021-12-01')), -8), da
 ax_timeline.set_title("Recorded seismicity during the La Palma eruption 11 September - 15 December 2021 (INVOLCAN Dataset)", dict(fontsize=24), pad=20)
 ax_timeline.set_ylabel("Depth (km)", dict(fontsize=20), labelpad=20)
 ax_timeline.set_xlabel("Eruption Timeline", dict(fontsize=20), labelpad=20);</code>
-        <sec sec-type="notebook-output" id="eq-timeline-output-0">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/f8ab9f0447ee819a5e7ba6831fde75ab.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/e4dcdda41d1b3375ecbf6ad739e6dbdd.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-37" sec-type="notebook-content">
-        <sec id="sec-38">
-          <title>Cumulative Distrubtion Plots</title>
-        </sec>
-      </sec>
-      <sec id="sec-39" sec-type="notebook-code">
-        <code language="python" executable="yes">def cumulative_events_mag_depth(df, hue='Depth', kind='scatter', ax=None, dpi=300, palette=None, kde=True):
+<sec sec-type="notebook-output" id="eq-timeline-output-0">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/f8ab9f0447ee819a5e7ba6831fde75ab.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/e4dcdda41d1b3375ecbf6ad739e6dbdd.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-37" sec-type="notebook-content">
+<sec id="sec-38">
+<title>Cumulative Distrubtion Plots</title>
+</sec>
+</sec>
+<sec id="sec-39" sec-type="notebook-code">
+<code language="python" executable="yes">def cumulative_events_mag_depth(df, hue='Depth', kind='scatter', ax=None, dpi=300, palette=None, kde=True):
     matplotlib.rcParams['ytick.labelright'] = False
     g = sns.jointplot(x="Magnitude", y="Depth(km)", data=df,
                       kind=kind, hue=hue, height=10, space=0.1, marginal_ticks=False, ratio=8, alpha=0.6,
@@ -1130,67 +1096,67 @@ ax_timeline.set_xlabel("Eruption Timeline", dict(fontsize=20), labelpad=20);</co
         g.plot_joint(sns.kdeplot, color="b", zorder=1, levels=15, ax=ax)
     g.fig.axes[0].invert_yaxis();
     g.fig.set_dpi(dpi)</code>
-      </sec>
-      <sec id="sec-40" sec-type="notebook-code">
-        <code language="python" executable="yes">cumulative_events_mag_depth(df_ign, hue=None)
+</sec>
+<sec id="sec-40" sec-type="notebook-code">
+<code language="python" executable="yes">cumulative_events_mag_depth(df_ign, hue=None)
 plt.suptitle('Cumulative Events 01-01-2017 to 01-01-2022', y=1.01);</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/b8d717c4ff847fee2deca7623f662369.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-41" sec-type="notebook-code">
-        <code language="python" executable="yes">cumulative_events_mag_depth(df_ign_early, hue=None)
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/b8d717c4ff847fee2deca7623f662369.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-41" sec-type="notebook-code">
+<code language="python" executable="yes">cumulative_events_mag_depth(df_ign_early, hue=None)
 plt.suptitle(f'Events prior to 2021-09-11 ({len(df_ign_early.index)} events)', y=1.01);</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/f3147ba6ff32e6b47d03e118053b3f18.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-42" sec-type="notebook-code">
-        <code language="python" executable="yes">cumulative_events_mag_depth(df_ign_pre, hue=None)
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/f3147ba6ff32e6b47d03e118053b3f18.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-42" sec-type="notebook-code">
+<code language="python" executable="yes">cumulative_events_mag_depth(df_ign_pre, hue=None)
 plt.suptitle(f"Events Immediately before Eruption 11-19 September 2021 ({len(df_ign_pre.index)} events)", y=1.01);</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/a90aa0610915f84fa459f96436718af6.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-43" sec-type="notebook-code">
-        <code language="python" executable="yes">cumulative_events_mag_depth(df_ign_phase1, hue=None)
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/a90aa0610915f84fa459f96436718af6.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-43" sec-type="notebook-code">
+<code language="python" executable="yes">cumulative_events_mag_depth(df_ign_phase1, hue=None)
 plt.suptitle(f"Events in Phase 1 of Eruption 2021-09-11 to 2021-09-30 ({len(df_ign_phase1.index)} events)", y=1.01);</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/b1f04da8102cbf4630ccf9a4fb6d2f1f.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-44" sec-type="notebook-code">
-        <code language="python" executable="yes">cumulative_events_mag_depth(df_ign_phase2, hue=None)
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/b1f04da8102cbf4630ccf9a4fb6d2f1f.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-44" sec-type="notebook-code">
+<code language="python" executable="yes">cumulative_events_mag_depth(df_ign_phase2, hue=None)
 plt.suptitle(f"Events in Phase 2 of Eruption 2021-10-01 to 2021-11-31 ({len(df_ign_phase2.index)} events)", y=1.01);</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/5df4dadd9b069b1c01d54ad8f07a1833.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-      <sec id="sec-45" sec-type="notebook-code">
-        <code language="python" executable="yes">cumulative_events_mag_depth(df_ign_phase3, hue=None)
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/5df4dadd9b069b1c01d54ad8f07a1833.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
+</alternatives>
+</sec>
+</sec>
+<sec id="sec-45" sec-type="notebook-code">
+<code language="python" executable="yes">cumulative_events_mag_depth(df_ign_phase3, hue=None)
 plt.suptitle(f"Events in Phase 3 of Eruption 2021-12-01 to 2021-12-31 ({len(df_ign_phase3.index)} events)", y=1.01);</code>
-        <sec sec-type="notebook-output">
-          <alternatives>
-            <graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/7ae39f4b8208a6425bc40716818d3d56.png"/>
-            <media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
-          </alternatives>
-        </sec>
-      </sec>
-    </body>
-  </sub-article>
+<sec sec-type="notebook-output">
+<alternatives>
+<graphic specific-use="print" mimetype="image" mime-subtype="png" xlink:href="files/7ae39f4b8208a6425bc40716818d3d56.png"/>
+<media specific-use="text" mimetype="text" mime-subtype="plain" xlink:href="files/db9772a19c36399657754f6eaeec3447.txt"/>
+</alternatives>
+</sec>
+</sec>
+</body>
+</sub-article>
 </article>
