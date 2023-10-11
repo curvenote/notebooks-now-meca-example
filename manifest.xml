@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifest PUBLIC "-//MECA//DTD Manifest v1.0//en" "https://meca.zip/manifest-1.0.dtd">
+<manifest manifest-version="1" xmlns="https://manuscriptexchange.org/schema/manifest" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <item item-type="article-metadata">
+    <instance xlink:href="article.xml" media-type="application/xml"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/08a3e249667761903112eae3524f9f05.html" media-type="text/html"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/12fa1945a6466ee67907eddd793c1d48.html" media-type="text/html"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/257ba76efd5a6f2788d081540a78d55f.html" media-type="text/html"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/2965d404c0b1e99b5fac9ba461cf561c.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/2e1524a2f85e69d11e412b8e2a9de952.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/46f93ca27898f777b9123e4090e6e685.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/5c5a9c2dca5de0d65fc01a1132d0d2b2.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/5df4dadd9b069b1c01d54ad8f07a1833.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/60f92afe48bd3eb2227b796b23e91586.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/7ae39f4b8208a6425bc40716818d3d56.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/85138691e3f8c5d91583e8d33bb1347c.html" media-type="text/html"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/8be18b66b1b55791d3b851a55694cbd4.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/97c9d9da18fc606e9ecd3a743850b893.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/a90aa0610915f84fa459f96436718af6.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/aae8ad9c53a0b5c52c06459040cc2532.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/b0cc3dbc98435dc2c080622aef22cdb8.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/b1f04da8102cbf4630ccf9a4fb6d2f1f.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/b8d717c4ff847fee2deca7623f662369.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/c0fe24e9bc649e66006dcfb45a979e0a.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/d03d60ec84df51e45664cc63c0e92b1d.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/db9772a19c36399657754f6eaeec3447.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/dd02250431a22b8951e4438997dda89b.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/ddf1fbab45050927e3c35bb6e7e115ed.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/e4dcdda41d1b3375ecbf6ad739e6dbdd.txt" media-type="text/plain"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/f3147ba6ff32e6b47d03e118053b3f18.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/f43ed15cc898f1e019a83d794608862f.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/f8ab9f0447ee819a5e7ba6831fde75ab.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/la-palma-map-650e62ce47fa5dd8df19eda40d05bdba.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/reservoirs-863d2b06151b1327cc836a4b2bc4425e.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-supporting-file">
+    <instance xlink:href="files/stations-4e022165150a6aeffd54d69d7049fd1f.png" media-type="image/png"/>
+  </item>
+  <item item-type="manuscript">
+    <instance xlink:href="article.pdf" media-type="application/pdf"/>
+  </item>
+  <item item-type="manuscript">
+    <instance xlink:href="tex.zip" media-type="application/zip"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/myst.yml" media-type="text/yaml"/>
+  </item>
+  <item item-type="article-source-environment">
+    <instance xlink:href="bundle/environment.yml" media-type="text/yaml"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/README.md" media-type="text/markdown"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/data/catalogoComunSV_1663233588717.csv" media-type="text/csv"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/data/lapalma_ign.csv" media-type="text/csv"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/_toc.yml" media-type="text/yaml"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/article.md" media-type="text/markdown"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/images/la-palma-map.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/images/reservoirs.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/notebooks/visualization-figure-creation-seaborn.ipynb" media-type="application/x-ipynb+json"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/notebooks/visualization-figure-creation-seaborn.ipynb" media-type="application/x-ipynb+json"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/notebooks/seismic-monitoring.md" media-type="text/markdown"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/notebooks/data-screening.ipynb" media-type="application/x-ipynb+json"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/notebooks/visualization-figure-creation-seaborn.ipynb" media-type="application/x-ipynb+json"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/references.bib" media-type="application/x-bibtex"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/images/stations.png" media-type="image/png"/>
+  </item>
+  <item item-type="article-source">
+    <instance xlink:href="bundle/notebooks/data-screening.ipynb" media-type="application/x-ipynb+json"/>
+  </item>
+  <item item-type="article-source-directory">
+    <instance xlink:href="bundle/" media-type="application/x-directory"/>
+  </item>
+</manifest>

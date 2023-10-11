@@ -1,0 +1,2 @@
+/opt/anaconda3/envs/py3/lib/python3.9/site-packages/matplotlib/collections.py:967: RuntimeWarning: invalid value encountered in sqrt
+  scale = np.sqrt(self._sizes) * dpi / 72.0 * self._factor

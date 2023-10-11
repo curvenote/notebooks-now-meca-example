@@ -1,0 +1,27 @@
+          Event        Date      Time  Latitude  Longitude  Depth(km)  \
+0   es2017eugju  2017-03-09  23:44:06   28.5346   -17.8349       26.0   
+1   es2017euhlh  2017-03-10  00:16:10   28.5491   -17.8459       27.0   
+2   es2017cpaoh  2017-03-10  00:16:11   28.5008   -17.8863       20.0   
+3   es2017eunnk  2017-03-10  03:20:26   28.5204   -17.8657       30.0   
+4   es2017kajei  2017-08-21  02:06:55   28.5985   -17.7156        0.0   
+
+      Intensity  Magnitude  Type Mag                        Location  \
+0                      1.6         4  NE FUENCALIENTE DE LA PALMA.IL   
+1                      2.0         4  N FUENCALIENTE DE LA PALMA.ILP   
+2                      2.1         4              W LOS CANARIOS.ILP   
+3                      1.6         4  NW FUENCALIENTE DE LA PALMA.IL   
+4                      1.6         4                 E EL PUEBLO.ILP   
+
+              DateTime            Timestamp  Swarm  Phase  \
+0  2017-03-09 23:44:06  1489103046000000000    0.0      0   
+1  2017-03-10 00:16:10  1489104970000000000    0.0      0   
+2  2017-03-10 00:16:11  1489104971000000000    0.0      0   
+3  2017-03-10 03:20:26  1489116026000000000    0.0      0   
+4  2017-08-21 02:06:55  1503281215000000000    0.0      0   
+
+                       Depth  Mag  
+0  Interchange (18km>x>28km)    1  
+1  Interchange (18km>x>28km)    2  
+2  Interchange (18km>x>28km)    2  
+3               Deep (>28km)    1  
+4            Shallow (<18km)    1  
