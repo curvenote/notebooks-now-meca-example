@@ -25,18 +25,11 @@ project:
         - curvenote
   affiliations:
     - id: curvenote
-      name: Curvenote
-      department: Engineering Team
-      address: 123 Main St.
-      city: NYC
-      state: New York
-      postal_code: '10001'
-      country: USA
-      isni: '0000000000000000'
+      name: Curvenote Inc.
+      department: Publications Team
+      country: Canada
       url: https://curvenote.com
       email: support@curvenote.com
-      phone: 123-456-7890
-      fax: 123-456-7891
   github: https://github.com/stevejpurves/ign-earthquake-data
   binder: >-
     https://mybinder.org/v2/gh/Notebooks-Now/submission-myst-full/HEAD?labpath=la-palma-visualization.ipynb
@@ -45,8 +38,8 @@ project:
     content: CC-BY-SA-4.0
     code: MIT
   funding:
-    - statement: Supported by Notebooks Now! at AGU.
-      id: '10070'
+    - statement: Supported by Notebooks Now! at AGU
+      id: 10070
       source:
         - name: Alfred P. Sloan Foundation
           doi: http://dx.doi.org/10.13039/100000879
@@ -57,7 +50,7 @@ project:
   keywords:
     - La Palma
     - Earthquakes
-  date: 2022-05-11
+  date: 2022-10-11
   requirements:
     - environment.yml
   resources:
@@ -84,7 +77,7 @@ project:
     - format: tex
       article: article.md
       output: tex.zip
-      template: agu2019
+      template: /Users/rowan/git/myst-templates/agu2019
       journal_name: Notebooks Now!
       draft: false
 site:

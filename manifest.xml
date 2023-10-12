@@ -110,10 +110,10 @@
     <instance xlink:href="bundle/README.md" media-type="text/markdown"/>
   </item>
   <item item-type="article-source">
-    <instance xlink:href="bundle/data/lapalma_ign.csv" media-type="text/csv"/>
+    <instance xlink:href="bundle/data/catalogoComunSV_1663233588717.csv" media-type="text/csv"/>
   </item>
   <item item-type="article-source">
-    <instance xlink:href="bundle/data/catalogoComunSV_1663233588717.csv" media-type="text/csv"/>
+    <instance xlink:href="bundle/data/lapalma_ign.csv" media-type="text/csv"/>
   </item>
   <item item-type="article-source">
     <instance xlink:href="bundle/_toc.yml" media-type="text/yaml"/>
