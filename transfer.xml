@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transfer PUBLIC "-//MECA//DTD Manifest v1.0//en" "https://meca.zip/transfer-ejp.dtd">
+<transfer version="1.0" xmlns="https://manuscriptexchange.org/schema/transfer">
+  <source>
+    <service-provider>
+      <provider-name>Curvenote Inc.</provider-name>
+      <contact>
+        <contact-name>
+          <surname>Support</surname>
+          <given-names>Curvenote</given-names>
+        </contact-name>
+        <email>support@curvenote.com</email>
+      </contact>
+    </service-provider>
+    <publication type="submission-system">
+      <title>Curvenote Submission System</title>
+      <contact>
+        <contact-name>
+          <surname>Support</surname>
+          <given-names>Curvenote</given-names>
+        </contact-name>
+        <email>support@curvenote.com</email>
+      </contact>
+    </publication>
+  </source>
+  <destination>
+    <service-provider>
+      <provider-name>eJournalPress</provider-name>
+      <contact>
+        <contact-name>
+          <surname>Support</surname>
+          <given-names>eJournalPress</given-names>
+        </contact-name>
+        <email>support@ejournalpress.com</email>
+      </contact>
+    </service-provider>
+    <publication type="journal">
+      <title>Earth and Space Sciences</title>
+      <acronym>ESS</acronym>
+      <contact>
+        <contact-name>
+          <surname>Support</surname>
+          <given-names>eJournalPress</given-names>
+        </contact-name>
+        <email>support@ejournalpress.com</email>
+      </contact>
+    </publication>
+  </destination>
+  <processing-instructions>
+    <comments>Manuscript and notebooks for peer-review</comments>
+  </processing-instructions>
+</transfer>

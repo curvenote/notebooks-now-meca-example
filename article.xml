@@ -31,12 +31,6 @@
 <xref ref-type="aff" rid="curvenote"/>
 </contrib>
 </contrib-group>
-<aff id="affiliations-myst-generated-uid-1">
-<institution-wrap>
-<institution>Alfred P. Sloan Foundation</institution>
-<institution-id institution-id-type="doi" vocab="open-funder-registry">10.13039/100000879</institution-id>
-</institution-wrap>
-</aff>
 <aff id="curvenote">
 <institution-wrap>
 <institution>Curvenote Inc.</institution>
@@ -54,7 +48,7 @@
 <ali:license_ref>https://creativecommons.org/licenses/by-sa/4.0/</ali:license_ref>
 </license>
 </permissions>
-<self-uri xlink:href="https://agu.curvenote.com/not-a-link-yet?authenticated" content-type="notebooks">Explore reproducible notebooks of this publication in Curvenote.</self-uri>
+<self-uri xlink:href="https://agu.curvenote.com/not-a-link-yet?authenticated" content-type="notebooks">Explore reproducible notebooks of this publication in Curvenote</self-uri>
 <abstract>
 <p>In September 2021, a significant jump in seismic activity on the island of La Palma (Canary Islands, Spain) signaled the start of a volcanic crisis that still continues at the time of writing. Earthquake data is continually collected and published by the Instituto Geográphico Nacional (IGN). We have created an accessible dataset from this and completed preliminary data analysis which shows seismicity originating at two distinct depths, consistent with the model of a two reservoir system feeding the currently very active volcano.</p>
 </abstract>
